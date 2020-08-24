@@ -1,0 +1,6 @@
+node{
+    stage("1"){
+    git "https://github.com/tantani123/my_git_repo"
+    bat "dir"
+    }
+}
